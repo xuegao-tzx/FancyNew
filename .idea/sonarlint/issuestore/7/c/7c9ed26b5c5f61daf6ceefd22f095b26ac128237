@@ -1,0 +1,13 @@
+
+t
+java:S11717"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+H
+java:S1602¨",Remove useless curly braces around statement(ƒÌ†ûþÿÿÿÿ
+K
+java:S1172Ç"/Remove this unused method parameter "activity".(ºö”°úÿÿÿÿ
+M
+java:S2696à"6Make the enclosing method "static" or remove this set.(ð¯¿ÿ
+p
+java:S1104×"YMake mDrawStrategy a static final constant or non-public and provide accessors if needed.(Ê±°¥
+J
+java:S1444×"3Make this "public static mDrawStrategy" field final(Ê±°¥

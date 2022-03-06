@@ -1,0 +1,49 @@
+{
+  "app": {
+    "bundleName":"com.xcl.demo",
+    "vendor": "tzx",
+    "version": {
+      "code": 1932,
+      "name": "1.0.1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.xcl.demo",
+    "name": ".MyApplication",
+    "mainAbility": "com.xcl.demo.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "Demo",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.xcl.demo.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:Demo_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

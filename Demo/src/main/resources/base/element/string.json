@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "Demo_MainAbility",
+      "value": "FancyNew示例"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

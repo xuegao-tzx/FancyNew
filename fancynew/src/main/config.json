@@ -1,0 +1,27 @@
+{
+  "app": {
+    "bundleName": "com.xcl.fancynew",
+    "vendor": "tzx",
+    "version": {
+      "code": 1830,
+      "name": "1.2.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.xcl.fancynew",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv",
+      "wearable",
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "fancynew",
+      "moduleType": "har"
+    }
+  }
+}

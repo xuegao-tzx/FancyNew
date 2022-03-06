@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:button_normal"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#30000000"
+        ohos:bottom_margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="NormalDraw"
+        ohos:text_size="16fp"/>
+
+    <Button
+        ohos:id="$+id:button_ryb"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#30000000"
+        ohos:bottom_margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="RYBDraw"
+        ohos:text_size="16fp"/>
+
+    <Button
+        ohos:id="$+id:button_line"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#30000000"
+        ohos:bottom_margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="LineDraw"
+        ohos:text_size="16fp"/>
+
+    <Button
+        ohos:id="$+id:button_rotation"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#30000000"
+        ohos:bottom_margin="10vp"
+        ohos:padding="10vp"
+        ohos:text="RotationDraw"
+        ohos:text_size="16fp"/>
+
+</DirectionalLayout>
