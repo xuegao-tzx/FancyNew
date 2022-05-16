@@ -1,4 +1,4 @@
-﻿# FancyNew
+# FancyNew
 
 **本项目是基于开源项目FancyView进行ohos化的移植和改进的，可以通过Github地址（ https://github.com/wongzy/FancyView ）追踪到原项目版本**
 
@@ -29,6 +29,23 @@
 
 ##### 方案一：
 
+  直接引入 FancyNew.har 依赖即可
+  
+```
+allprojects {
+  repositories {
+      mavenCentral()        
+  }
+}
+...
+dependencies {
+  ...
+  implementation 'top.xuegao-tzx:fancynew:1.2.0'
+  ...
+}
+```
+##### 方案二：
+
   1. 下载依赖库 FancyNew.har。
   2. 启动 DevEco Studio，将编译的har包，导入工程目录“entry->libs”下。
   3. 在moudle级别下的build.gradle文件中添加依赖，在dependences标签中增加对libs目录下har包的引用。
@@ -40,7 +57,7 @@ dependencies {
 ```
   4.在导入的har包上点击右键，选择“Add as Library”对包进行引用，选择需要引用的模块，并点击“OK”即引用成功。
 
-##### 方案二：
+##### 方案三：
   1. 克隆本仓库到本地
   2. 启动 DevEco Studio，左上角点击：文件-新建-导入模块
   3. 在应用模块的build.gradle的dependencies闭包中，添加如下代码:
